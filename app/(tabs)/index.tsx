@@ -1,14 +1,16 @@
 import { Stack } from 'expo-router';
-import { StyleSheet, View } from 'react-native';
+import { StyleSheet, View, Text } from 'react-native';
 
+import movies from "~/assets/data/movies.json"; 
 import { ScreenContent } from '~/components/ScreenContent';
 
 export default function Home() {
   return (
     <>
-      <Stack.Screen options={{ title: 'Tab One' }} />
+      <Stack.Screen options={{ title: 'Movie List' }} />
       <View style={styles.container}>
-        <ScreenContent path="app/(tabs)/index.tsx" title="Tab One" />
+        {/* <ScreenContent path="app/(tabs)/index.tsx" title="Tab One" /> */}
+        <Text>{JSON.stringify(movies)}</Text>
       </View>
     </>
   );
