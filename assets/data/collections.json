@@ -1,17 +1,37 @@
 [
-    {
-        "id": 1,
-        "name": "New Releases",
-        "description": "The latest movies released in theaters."
-    },
-    {
-        "id": 2,
-        "name": "Top Rated",
-        "description": "Movies that have received the highest ratings."
-    },
-    {
-        "id": 3,
-        "name": "Editor's Picks",
-        "description": "Curated selections by our editorial team."
-    }
+  {
+      "id": 1,
+      "name": "New Releases",
+      "description": "The latest movies released in theaters."
+  },
+  {
+      "id": 2,
+      "name": "Action & Adventure",
+      "description": "High-octane films filled with action and thrilling adventures."
+  },
+  {
+      "id": 3,
+      "name": "Animation",
+      "description": "Family-friendly animated films for all ages."
+  },
+  {
+      "id": 4,
+      "name": "Thrillers",
+      "description": "Suspenseful movies that keep you on the edge of your seat."
+  },
+  {
+      "id": 5,
+      "name": "Dramas",
+      "description": "Thought-provoking films that delve into human emotions."
+  },
+  {
+      "id": 6,
+      "name": "Romance",
+      "description": "Love stories that tug at your heartstrings."
+  },
+  {
+      "id": 7,
+      "name": "Sci-Fi & Fantasy",
+      "description": "Films that explore futuristic concepts and fantastical worlds."
+  }
 ]

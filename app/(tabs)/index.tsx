@@ -9,7 +9,6 @@ export default function Home() {
     <>
       <Stack.Screen options={{ title: 'Movie List' }} />
       <View style={styles.container}>
-        {/* <ScreenContent path="app/(tabs)/index.tsx" title="Tab One" /> */}
         <Text>{JSON.stringify(movies)}</Text>
       </View>
     </>
