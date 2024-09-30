@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "name": "New Releases",
+        "description": "The latest movies released in theaters."
+    },
+    {
+        "id": 2,
+        "name": "Top Rated",
+        "description": "Movies that have received the highest ratings."
+    },
+    {
+        "id": 3,
+        "name": "Editor's Picks",
+        "description": "Curated selections by our editorial team."
+    }
+]
